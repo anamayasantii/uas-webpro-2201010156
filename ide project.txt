@@ -1,0 +1,8 @@
+ide project:
+menu dan pesan berbasis web
+
+deskripsi project:
+project yang saya buat ini adalah e-menu dan cafe yang bernama Soogar Holic. di dalam web ini terdapat menu untuk pelanggan dapat melihatnya, ada about us yang mana berisi tentang cafe yang saya buat dan ada order page dimana disana tempat pelanggan memesan menu yang disediakan oleh kami. cara kerja web ini pertama customer akan scan barcode dan akan masuk ke dalam home page, ketika customer mau memesan tinggal tekan tombol keranjang yang ada di pojok kanan atas dan menulis pesanannya.
+
+sebelumnya mohon maaf pak saya hanya membuat database pada pemesanan saja, saya belum sepenuhnya bisa mengerti caranya dengan waktu yang singkat. sudah saya coba tapi error.
+terima kasih

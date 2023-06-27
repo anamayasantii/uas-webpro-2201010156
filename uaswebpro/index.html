@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soogar Holic</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/95319c6af2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="popup" class="background-popup">
+        
+    </div>
+    <div id="popup" class="container-popup">
+        <div class="item-popup">
+
+            <img src="assets/modal.jpg" alt="">
+            <button onclick="tutupPopup()">Close</button>
+        </div>
+    </div>
+
+    <header>
+        <div class="main-header">
+            <img class="header-img" src="assets/logo.png" alt="">
+            <h3 class="header-info">Soogar Holic</h3>
+            <nav>
+                <a href="index.html"><i class="fas fa-home icon"></i>Home</a>
+                <a href="aboutus.html"><i class="fas fa-door-open"></i>About Us</a>
+                <a href="order.php"><i class="fas fa-shopping-cart"></i></a>
+            </nav>
+          </div>
+    </header>
+    
+    <main style="margin-top: 60px;">
+        <section id="slider" class="section-slider">
+            <div class="image-slider">
+                <div class="slide active">
+                    <img src="assets/bg1.jpg" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="assets/bg2.jpg" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="assets/bg3.jpg" alt="">
+                </div>
+
+                <div class="navigation">
+                    <div class="slider-btn active"></div>
+                    <div class="slider-btn"></div>
+                    <div class="slider-btn"></div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section>
+            <article id="main-menu">
+                <h2 class="our-menu" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="100">OUR MENU</h2>
+                <h3 class="menu-title" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="100">DRINK</h3>
+                <div class="menu-container">
+                    <div class="menu">
+                        <div class="img-menu">
+                            <img src="assets/vanillacaramelblended.png" alt="" width="90%">
+                        </div>
+                        <div class="desc-menu">
+                            <h3>Vanilla Ice Blended</h3>
+                            <p>Another classic version of our signature. Made with our fresh milk blend, 
+                                vanilla powder, and blended with ice then topped with whipped cream. A delicious summer treat!</p>
+                            <p>Rp XXXXX</p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="img-menu">
+                            <img src="assets/berryiceblended.png" alt="" width="80%">
+                        </div>
+                        <div class="desc-menu">
+                            <h3>Berry Ice Blended</h3>
+                            <p>Are you looking for a fresh drink? Blended with berry fruits, 
+                                milk or water and topped with fresh fruit. Perfect for your summer.
+                            </p>
+                            <p>Rp XXXXX</p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="img-menu">
+                            <img src="assets/freshmilk.png" alt="" width="65%">
+                        </div>
+                        <div class="desc-menu">
+                            <h3>Fresh Milk</h3>
+                            <p>Fresh Milk crafted with only one pure ingredient and minimally processed. 
+                                No milk powder, stabilizers, artificial ingredients, 
+                                or coloring agents are ever used in our milk.</p>
+                                <p>Rp XXXXX</p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="img-menu">
+                            <img src="assets/coffeeblended.png" alt="" width="65%">
+                        </div>
+                        <div class="desc-menu">
+                            <h3>Coffee Blended</h3>
+                            <p> We use an exclusive blend of the highest quality coffee beans, 
+                                then our baristas work their magic to make your coffee exactly how you like it.</p>
+                                <p>Rp XXXXX</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article id="main-menu">
+                <h3 class="menu-title" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="100">SNACK</h3>
+                <div class="menu-container">
+                    <div class="menu">
+                        <div class="img-menu">
+                            <img src="assets/originalcupcake.png" alt="" width="70%">
+                        </div>
+                        <div class="desc-menu">
+                            <h3>Original Cupcake</h3>
+                            <p>Our signature snack, Original Cupcake. Made with premium ingredients, topped with
+                                vanilla whipped cream and there's a cherry on top.
+                            </p>
+                            <p>Rp XXXXX</p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="img-menu">
+                            <img src="assets/muffin.png" alt="" width="55%">
+                        </div>
+                        <div class="desc-menu">
+                            <h3>Original Muffin</h3>
+                            <p>Another classic version of our signature. Made with premium ingredients, mufffin
+                                with chocochip and melt chocolate inside.
+                            </p>
+                            <p>Rp XXXXX</p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="img-menu">
+                            <img src="assets/icecreamstick.png" alt="" width="65%">
+                        </div>
+                        <div class="desc-menu">
+                            <h3>Stick Ice Cream</h3>
+                            <p>Delicious home made ice cream, topped with choco crunchy and rainbow sprinkles. You can choose
+                                flavour Vanilla, Chocolate and Greentea. So milky!</p>
+                                <p>Rp XXXXX</p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="img-menu">
+                            <img src="assets/scoopicecream.png" alt="" width="60%">
+                        </div>
+                        <div class="desc-menu">
+                            <h3>3 Scoop Ice Cream</h3>
+                            <p>Another home made ice cream on a cup, topped with chocolate sauce or sprinkle.
+                                Our ice cream made with fresh milk and powder.
+                            </p>
+                            <p>Rp XXXXX</p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="img-menu">
+                            <img src="assets/originalcroissant.png" alt="" width="60%">
+                        </div>
+                        <div class="desc-menu">
+                            <h3>Original Croissant</h3>
+                            <p>Glossy and sweet croissants, the perfect snack for you when you're bored.
+                                They are best enjoyed warm and fresh out of the oven.
+                            </p>
+                            <p>Rp XXXXX</p>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="img-menu">
+                            <img src="assets/bananapudding.png" alt="" width="70%">
+                        </div>
+                        <div class="desc-menu">
+                            <h3>Banana Pudding</h3>
+                            <p>Soft banana flavored pudding with chocolate vla, served cold.
+                                The resulting dessert is rich, creamy, and full of sweet banana flavor, making it a crowd-pleasing favorite for any occasion.
+                            </p>
+                            <p>Rp XXXXX</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+
+    </main>
+    <footer>
+        <div class="main-footer">
+            <div class="social-media">
+              <i class="fab fa-instagram-square"></i>
+              <i class="fab fa-twitter-square"></i>
+              <i class="fab fa-facebook-square"></i>
+              <i class="fas fa-envelope"></i>
+            </div>
+            <p class="info-center">
+              Copyright &copy; 2023. Soogar Holic. All right reserved
+            </p>
+          </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
